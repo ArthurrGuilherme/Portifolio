@@ -1,0 +1,151 @@
+header {
+    height: 128px;
+    width: 1317 px;
+    background-image: url(https://i.pinimg.com/originals/67/e7/80/67e7804a3864631c7291558a76be1ffb.gif);
+}
+.menu_primario {
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 35px;
+    padding-top: 10px;
+
+}
+#redes_sociais {
+    width: 1rem;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 11px;
+    padding-bottom: 15px;
+    border-radius: 18%;
+    border: solid;
+    border-color: #edf6fd59;
+    color: rgb(2, 2, 2);
+}
+.link :hover {
+    background-color: rgba(254, 254, 255, 0.966); 
+ }
+ .menu_secindario {
+    background-color: rgb(0, 0, 0);
+    width: 1196px;
+    height: 121px;
+    border-radius: 50px;
+    margin-top: 18px;
+    margin-left: 50px;
+ }
+ .logo {
+    padding-left: 100px;
+    width: 120px;
+}
+.icon {
+    display: flex;
+    align-items: center;
+}
+.link02 {
+    text-decoration: none;
+    color: #fffbfb;
+    font-size: 17px;
+}
+.link01 {
+    display: flex;
+    gap: 1.5rem;
+    padding-left: 265px;
+}
+.link01 :hover {
+    color: rgba(127, 255, 212, 0.966);
+}
+ /*HEADER*/
+
+ * {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.apresentação {
+    padding-top: 80px;
+    display: flex;
+    transition: all 0.5s;
+    cursor: pointer;
+    align-items: center;
+    gap: 15rem;
+    margin-left: 268px;
+    height: 350px;
+    padding-bottom: 20px
+
+}
+.arthur {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+} 
+.foto_principal {
+    background-color: #f0f8ffb8;
+    height: 277px;
+    text-align: center;
+    font-size: 15px;
+
+
+}
+.apresentação :hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+.texto {
+    text-align: center;
+}
+.interreses {
+    display: flex;
+    text-align: center;
+    gap: 14rem;
+    padding-left: 54px;
+    height: 200px;
+}
+.container03 {
+    background-color: #000000;
+    padding-top: 10px;
+    color: #ffffff;
+}
+.portugues {
+    padding-bottom: 15px;
+}
+.imganes {
+    display: flex;
+    gap: 0.5rem;
+}
+.logoo {
+    width: 36px;
+    height: 48px;
+}
+.tema {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.titulo {
+    text-align: center;
+    margin-left: 19px;
+    padding-bottom: 10px;
+}
+.portfolio-cards {
+    display: flex;
+    gap: 3rem;
+}
+.espaço {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.espaço :hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+/*BODY*/
+
+footer {
+    background-color: rgb(14, 13, 13);
+    height: 100px;
+    color: aliceblue;
+    text-align: center;
+}
+.contaainer05 {
+    padding-top: 50px;
+}
