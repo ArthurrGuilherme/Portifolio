@@ -361,7 +361,7 @@ footer {
     gap: 3rem;
     background-color: #000000;
  }
- .h2 {
+ .h3 {
     display: none;
  }
 @media (max-width: 800px) {
@@ -392,7 +392,7 @@ footer {
     header {
         display: none;
     }
-    .h2 {
+    .h3 {
         font-size: 16px;
         display: block;
     }
