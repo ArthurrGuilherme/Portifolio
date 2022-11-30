@@ -528,6 +528,7 @@ footer {
     height: 55px;
     border-radius: 50%;
     rotate: 180deg;
+     border: 2px solid;
 }
 /*Load*/
 .load{
