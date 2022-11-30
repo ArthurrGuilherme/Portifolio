@@ -458,7 +458,7 @@ div.progressBar span {
     display: flex;
     padding-bottom: 30px;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
 }
 .espaço :hover {
     -webkit-transform: scale(1.5);
@@ -488,6 +488,7 @@ footer {
     justify-content: center;
     gap: 3rem;    
     background: #ffffff;
+    border-top: 2px solid;
  }
  @media(max-width:990px) {
     footer  {
