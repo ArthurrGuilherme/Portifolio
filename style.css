@@ -539,6 +539,10 @@ footer {
     justify-content: center;
     display: flex;
     align-items: center;
+    background-color: #fff;
+}
+.loandig {
+    display: none;
 }
 .ring {
     width: 200px;
@@ -563,7 +567,7 @@ footer {
     animation: rotate3 2s linear infinite;
 }
 .amicao10 {
-    color: #000;
+    color: #fff;
 }
 @keyframes rotate{
     0% {
