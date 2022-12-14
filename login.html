@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Login</title>
+
+    <!--Icone-->
+    <link rel="Icon" href="https://i.pinimg.com/564x/4f/5e/89/4f5e8947bcdcf9da79377f515083a00a.jpg">
+    <!--boxicone-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    header {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+</style>
+
+<!--Pre-carregamento-->
+<body onload="loading()">
+    <div class="load"> 
+       <div class="ring"></div>
+       <div class="ring"></div>
+       <div class="ring"></div>
+       <span class="loand01">...</span>
+   </div>
+   <div class="loandig">
+        <section class="container16">
+            <main class="login">
+                <div class="sessao20">
+                    <h1 class="titulo16">Login</h1>
+                    <form class="formulario_login">
+                        <input class="input02" type="email" name="" id="login" placeholder="E-mail:">
+                            <span class="borda01"></span>  
+                        <input class="input02" type="password" name="" id="senha" placeholder="Senha:">
+                            <span class="borda"></span>    
+                        <button onclick="logar(); return false" class="enviar">Login</button>
+                        <a class="reset" href="#">Esqueci a Senha</a>  
+                        <p class="usuario">E-mail: admin@gmail.com</p> 
+                        <p class="usuario">Senha: admin123</p> 
+                    </form>  
+                    </h1>
+                </div>
+                
+            </main>
+        </section>
+   </div>
+</body>
+<script src="./main.js"></script>
+</html>
